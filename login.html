@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Basic -->
+	<meta charset="utf-8">
+
+    <!--title and importing css files-->
+	<title>Euphoria</title>
+
+	<!--Mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body style="overflow: scroll;">
+	<header class="header">
+	<!--navbar start-->	
+		<div id="navbar" style="margin-left:0px;">
+			<a id="image_nav" href=index.html><img src="final_logo.png"></a>
+			<div id="mySidenav" class="sidenav">
+		  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  		<a href=index.html onclick="closeNav()">Home</a>
+		  		<!--<a href="#about" onclick="closeNav()">About</a>-->
+		  		<a href=product.html onclick="closeNav()">Products</a>
+		  		<a href=contact.html onclick="closeNav()">Contact</a>
+		  		<a href=login.html onclick="closeNav()">Buy Now</a>
+			</div>
+
+			<span id="button" onclick="openNav()">&#9776;</span>
+		</div>	
+	<!--navbar end-->
+	</header>
+
+	<div >
+		<div id="login_page" class="row " style=" background-color: #2b0a21; background-image:none">
+			<div id="side_image" class="col-lg-5 col-md-5 col-xs-12" style="background-image: url('wall3.jpg')"></div>
+				<div id="side_image_inner" >
+					<img src="final_logo.png">
+					<h2>Hey You!</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit.</p>
+
+					<h3>Buy your headphone in just 3 steps</h3>
+					<ul>
+						<li>Sign Up</li>
+						<li>Choose your headphone</li>
+						<li>Pay for your product</li>
+					</ul>
+				</div>				
+			
+
+			<div id= "login_form" class="col-lg-7 col-md-7 col-xs-12" style="background-image:none; background-color: #2b0a21;">
+				<div id="part1">
+					<h2 style="color:white">Sign Up/Login</h2>
+						<form method="post" name="loginform" class="col-lg-6 col-xs-12">
+							<div><input type="text" name="form_name" id="form_name" placeholder="Name" required="required" data-error="Firstname is required." contentEditable="true" /><br /></div>
+	  						<div><input type="email" name="form_name" id="form_email" placeholder="Email ID" required="required" data-error="Email Id is required." contentEditable="true"  /><br /></div>
+	  						<div><input type="number" name="form_name" id="form_no" placeholder="Mobile Number" required="required" data-error="Mobile number is
+	  					required." contentEditable="true"  /><br /></div>
+	  						<div id="submit"><a href="#">Login</a></div>
+
+						</form>				
+
+						<div class="vl"></div>
+
+					<div id="login_option" class="col-lg-6 col-xs-12">
+						<h3 style="color:white">You may use</h3>
+						<div><a href="#">Login using Gmail &nbsp <i class="fa fa-google" aria-hidden="true"></i></a></div><br />
+						<div id="bottom"><a href="#">Login using Facebook &nbsp <i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	
+
+
+</body>
+</html>
