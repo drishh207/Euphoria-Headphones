@@ -959,8 +959,6 @@ body{
 
 	.sidenav{
 		z-index:1;
-		position: absolute;
-		height:1000%;
 	}
 
 	#login_page{
@@ -970,7 +968,7 @@ body{
 		overflow:scroll;
 		height:90%;
 		opacity:1;
-		z-index:2;
+		z-index:-1;
 	}
 
 	#login_form{
